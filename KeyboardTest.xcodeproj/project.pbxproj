@@ -12,6 +12,7 @@
 		0A1144911FAA2D8B001E4089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A11448F1FAA2D8B001E4089 /* Main.storyboard */; };
 		0A1144931FAA2D8B001E4089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1144921FAA2D8B001E4089 /* Assets.xcassets */; };
 		0A1144961FAA2D8B001E4089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1144941FAA2D8B001E4089 /* LaunchScreen.storyboard */; };
+		0A11449E1FAA2F1E001E4089 /* KeyboardModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11449D1FAA2F1E001E4089 /* KeyboardModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0A1144921FAA2D8B001E4089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A1144951FAA2D8B001E4089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A1144971FAA2D8B001E4089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A11449D1FAA2F1E001E4089 /* KeyboardModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0A11448B1FAA2D8B001E4089 /* AppDelegate.swift */,
 				0A11448D1FAA2D8B001E4089 /* ViewController.swift */,
+				0A11449D1FAA2F1E001E4089 /* KeyboardModule.swift */,
 				0A11448F1FAA2D8B001E4089 /* Main.storyboard */,
 				0A1144921FAA2D8B001E4089 /* Assets.xcassets */,
 				0A1144941FAA2D8B001E4089 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				0A11448E1FAA2D8B001E4089 /* ViewController.swift in Sources */,
 				0A11448C1FAA2D8B001E4089 /* AppDelegate.swift in Sources */,
+				0A11449E1FAA2F1E001E4089 /* KeyboardModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,18 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, KeyboardModule {
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    var test: () -> Void  = { () -> Void in
+        print()
+    }
+    
+    var activeTextField: UITextField?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        textField.delegate = self
+        setObserver()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
+extension ViewController: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        activeTextField = textField
+    }
+}
